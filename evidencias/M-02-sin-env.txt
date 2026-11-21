@@ -1,0 +1,4 @@
+error while interpolating services.backend.environment.DATABASE_URL: required variable POSTGRES_USER is missing a value: falta POSTGRES_USER
+error while interpolating services.db.environment.POSTGRES_DB: required variable POSTGRES_DB is missing a value: falta POSTGRES_DB
+error while interpolating services.db.environment.POSTGRES_PASSWORD: required variable POSTGRES_PASSWORD is missing a value: falta POSTGRES_PASSWORD
+error while interpolating services.db.environment.POSTGRES_USER: required variable POSTGRES_USER is missing a value: falta POSTGRES_USER

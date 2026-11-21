@@ -1,0 +1,4 @@
+NAME                              IMAGE                           COMMAND                  SERVICE    CREATED         STATUS                     PORTS
+docker-rescue-aci606-backend-1    docker-rescue-aci606-backend    "uvicorn app:app --h…"   backend    5 minutes ago   Exited (1) 5 minutes ago   
+docker-rescue-aci606-db-1         postgres:16-alpine              "docker-entrypoint.s…"   db         5 minutes ago   Up 5 minutes               5432/tcp
+docker-rescue-aci606-frontend-1   docker-rescue-aci606-frontend   "/docker-entrypoint.…"   frontend   5 minutes ago   Up 5 minutes               80/tcp, 0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp

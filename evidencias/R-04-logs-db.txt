@@ -1,0 +1,2 @@
+db-1  | 2026-11-21 01:24:00.717 UTC [92] FATAL:  password authentication failed for user "appuser"
+db-1  | 2026-11-21 01:25:41.561 UTC [97] FATAL:  password authentication failed for user "appuser"

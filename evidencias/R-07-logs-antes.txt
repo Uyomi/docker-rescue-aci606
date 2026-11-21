@@ -1,0 +1,8 @@
+backend-1  | INFO:     Waiting for application startup.
+backend-1  | ERROR:    Traceback (most recent call last):
+backend-1  | psycopg2.OperationalError: connection to server at "db" (172.18.0.2), port 5432 failed: Connection refused
+backend-1  |     await self._router.startup()
+backend-1  |   File "/usr/local/lib/python3.12/site-packages/starlette/routing.py", line 672, in startup
+backend-1  |   File "/app/main.py", line 23, in startup
+backend-1  | sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) connection to server at "db" (172.18.0.2), port 5432 failed: Connection refused
+backend-1  | ERROR:    Application startup failed. Exiting.

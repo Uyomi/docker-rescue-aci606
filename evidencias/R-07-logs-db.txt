@@ -1,0 +1,3 @@
+db-1  | 2026-11-21 01:35:21.950 UTC [40] LOG:  database system is ready to accept connections
+db-1  | PostgreSQL init process complete; ready for start up.
+db-1  | 2026-11-21 01:35:22.538 UTC [1] LOG:  database system is ready to accept connections

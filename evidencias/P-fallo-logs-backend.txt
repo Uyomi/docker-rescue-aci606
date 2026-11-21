@@ -1,0 +1,5 @@
+backend-1  |     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+backend-1  |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+backend-1  | sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "db" to address: Name or service not known
+backend-1  | 
+backend-1  | (Background on this error at: https://sqlalche.me/e/20/e3q8)

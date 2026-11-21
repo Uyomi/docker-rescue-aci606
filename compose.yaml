@@ -10,7 +10,7 @@ services:
   backend:
     build: ./backend
     environment:
-      DATABASE_URL: "postgresql://${POSTGRES_USER:?falta POSTGRES_USER}:${POSTGRES_PASSWORD:?falta POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:?falta POSTGRES_DB}"
+      DATABASE_URL: "postgresql://${POSTGRES_USER:-appuser}:${POSTGRES_PASSWORD:-rescue123}@db:5432/${POSTGRES_DB:-appdb}"
     depends_on:
       db:
         condition: service_healthy
@@ -24,9 +24,9 @@ services:
   db:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:?falta POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?falta POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB:?falta POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER:-appuser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-rescue123}
+      POSTGRES_DB: ${POSTGRES_DB:-appdb}
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:

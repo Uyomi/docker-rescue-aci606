@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx/1.27.5
+Date: Sat, 21 Nov 2026 01:30:14 GMT
+Content-Type: text/html
+Content-Length: 2561
+Last-Modified: Sat, 21 Nov 2026 00:48:48 GMT
+Connection: keep-alive
+ETag: "6b00ea70-a01"
+Accept-Ranges: bytes
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
